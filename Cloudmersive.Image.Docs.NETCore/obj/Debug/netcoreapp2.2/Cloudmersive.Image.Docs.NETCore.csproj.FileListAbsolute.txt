@@ -1,0 +1,8 @@
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\bin\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.deps.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\bin\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.runtimeconfig.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\bin\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.runtimeconfig.dev.json
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\bin\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.dll
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\obj\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.csprojAssemblyReference.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\obj\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.csproj.CoreCompileInputs.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\obj\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.AssemblyInfoInputs.cache
+C:\Users\braga\OneDrive\Old Junk\Documents2\GitHub\Cloudmersive.ImageProcessing.DocumentConvertExamples.NETCore\Cloudmersive.Image.Docs.NETCore\obj\Debug\netcoreapp2.2\Cloudmersive.Image.Docs.NETCore.AssemblyInfo.cs
