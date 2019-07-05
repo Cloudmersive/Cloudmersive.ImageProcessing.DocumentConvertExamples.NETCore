@@ -6,7 +6,9 @@ namespace Cloudmersive.Image.Docs.NETCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Resizing an image
+
+            // Converting a Word Document (DOCX) to PDF
         }
     }
 }
