@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using Cloudmersive.APIClient.NETCore.DocumentAndDataConvert.Api;
 using Cloudmersive.APIClient.NETCore.DocumentAndDataConvert.Client;
 using Cloudmersive.APIClient.NETCore.DocumentAndDataConvert.Model;
@@ -15,7 +16,7 @@ namespace Cloudmersive.Image.Docs.NETCore
         {
             // Resizing an image
 
-            Cloudmersive.APIClient.NETCore.ImageRecognition.Client.Configuration.Default.AddApiKey("Apikey", "YOUR_API_KEY");
+            Cloudmersive.APIClient.NETCore.ImageRecognition.Client.Configuration.Default.AddApiKey("Apikey", "YOUR-API-KEY");
 
 
 
@@ -28,7 +29,9 @@ namespace Cloudmersive.Image.Docs.NETCore
             {
                 // Resize an image with parameters
                 byte[] result = apiInstance1.ResizePost(maxWidth, maxHeight, imageFile);
-                Debug.WriteLine(result);
+                Debug.WriteLine("Completed 1");
+
+                File.WriteAllBytes("C:\\temp\\output.png", result);
             }
             catch (Exception e)
             {
@@ -37,7 +40,7 @@ namespace Cloudmersive.Image.Docs.NETCore
 
             // Converting a Word Document (DOCX) to PDF
 
-            Cloudmersive.APIClient.NETCore.DocumentAndDataConvert.Client.Configuration.Default.AddApiKey("Apikey", "YOUR_API_KEY");
+            Cloudmersive.APIClient.NETCore.DocumentAndDataConvert.Client.Configuration.Default.AddApiKey("Apikey", "YOUR-API-KEY");
 
             var apiInstance2 = new ConvertDocumentApi();
             var inputFile = new System.IO.FileStream("C:\\temp\\input.docx", System.IO.FileMode.Open); // System.IO.Stream | Input file to perform the operation on.
@@ -46,7 +49,9 @@ namespace Cloudmersive.Image.Docs.NETCore
             {
                 // Word DOCX to PDF
                 byte[] result = apiInstance2.ConvertDocumentDocxToPdf(inputFile);
-                Debug.WriteLine(result);
+                Debug.WriteLine("Completed 2");
+
+                File.WriteAllBytes("C:\\temp\\output.pdf", result);
             }
             catch (Exception e)
             {
